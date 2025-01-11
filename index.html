@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="slidebar">
+            <div class="nav">
+                <div class="navoption" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" >Home</a>                    
+                </div>
+
+                <div class="navoption">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>                    
+                </div>  
+            </div>
+            <div class="library">
+                <div class="libraryoption">
+                    <div class="yourlib">
+                        <img src="./assets/library_icon.png" alt="library option">
+                        <a href="#">Your library </a>
+                    </div>
+                    
+                    <div class="libraryicons">
+                        <i class="fa-solid fa-plus" style="background-color: #121212;"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="libbox">
+                    <div class="box">
+                        <p class="box1">Create your first playlist</p>
+                        <p class="box2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box1">Let's find some podcast to follow</p>
+                        <p class="box2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainbar">
+            <div class="main-stiky-head">
+                <div class="move">
+                    <img class="move-img-1" src="./assets/backward_icon.png" alt="backward icon">
+                    <img class="move-img-2" src="./assets/forward_icon.png" alt="forward icon">
+                </div>
+                
+                <div class="stiky-options">
+                    <button class="stiky-btn-1 stiky-nav-option btn-1">Explore Premiun</button>
+                    <button class="stiky-btn-2 stiky-nav-option btn-2"><i class="fa-regular fa-circle-down"></i> Install App</button>
+                    <i class="fa-regular fa-bell stiky-nav-option stiky-nav-options-icon "></i>
+                    <i class="fa-regular fa-user stiky-nav-option stiky-nav-options-icon"></i>
+                </div>
+                
+            </div>
+            <div class="main-content">
+                <h2>Recents</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="" class="divimg">
+                        <p>hello</p>
+                        <p>mashida</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="" class="divimg">
+                        <p>hello</p>
+                        <p>mashida</p>
+                    </div>                    
+                </div> 
+                
+                <h2>You may like</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="" class="divimg">
+                        <p>hello</p>
+                        <p>mashida</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="" class="divimg">
+                        <p>hello</p>
+                        <p>mashida</p>
+                    </div>                    
+                </div> 
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        
+
+        <div class="music">
+            <div class="current"></div>
+            <div class="playbar">
+                <div class="playericons">
+                    <img src="./assets/player_icon1.png" alt="">
+                    <img src="./assets/player_icon2.png" alt="">
+                    <img src="./assets/player_icon3.png" alt="" style="opacity: 1; height:1.5rem">
+                    <img src="./assets/player_icon4.png" alt="">
+                    <img src="./assets/player_icon5.png" alt="">
+                </div>
+                <div class="playplaybar">
+                    <span>00:00</span>
+                    <input type="range" min="0" max="100" class="progress">
+                    <span>3:33</span>
+                </div>
+            </div>
+            <div class="tools"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
